@@ -1,7 +1,5 @@
-<?php
-require 'function.php';
+<?php require 'function.php';
 require 'cek.php';
-
 ?>
 
 <!DOCTYPE php>
@@ -13,7 +11,7 @@ require 'cek.php';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>STOCK SPAREPART ENGINEERING</title>
+    <title>Barang Masuk</title>
     <link href="css/styles.css" rel="stylesheet" />
     <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet"
         crossorigin="anonymous" />
@@ -133,49 +131,39 @@ require 'cek.php';
         <div id="layoutSidenav_content">
             <main>
                 <div class="container-fluid">
-                    <h1 class="mt-4">Stock Sparepart Engineering</h1>
+                    <h1 class="mt-4">Barang Masuk</h1>
+
                     <div class="card mb-4">
                         <div class="card-header">
                             <i class="fas fa-table mr-1"></i>
                             Kartu Stock
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#staticBackdrop">
-                                Tambah Barang
-                            </button>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>No</th>
-                                            <th>Tanggal</th>
-                                            <th>No Doc Penerimaan</th>
-                                            <th>Nama Barang</th>
-                                            <th>Saldo</th>
-                                            <th>Quantity</th>
-                                            <th>Rak</th>
-                                            <th>No Bin</th>
-                                            <th>PIC</th>
+                                            <th>Name</th>
+                                            <th>Position</th>
+                                            <th>Office</th>
+                                            <th>Age</th>
+                                            <th>Start date</th>
+                                            <th>Salary</th>
                                         </tr>
                                     </thead>
                                     <tfoot>
                                         <tr>
-                                            <th>No</th>
-                                            <th>Tanggal</th>
-                                            <th>No Doc Penerimaan</th>
-                                            <th>Nama Barang</th>
-                                            <th>Saldo</th>
-                                            <th>Quantity</th>
-                                            <th>Rak</th>
-                                            <th>No Bin</th>
-                                            <th>PIC</th>
+                                            <th>Name</th>
+                                            <th>Position</th>
+                                            <th>Office</th>
+                                            <th>Age</th>
+                                            <th>Start date</th>
+                                            <th>Salary</th>
                                         </tr>
                                     </tfoot>
                                     <tbody>
                                         <tr>
-                                            <td>1</td>
+                                            <td>Tiger Nixon</td>
                                             <td>System Architect</td>
                                             <td>Edinburgh</td>
                                             <td>61</td>
@@ -204,13 +192,8 @@ require 'cek.php';
             </footer>
         </div>
     </div>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
@@ -226,7 +209,7 @@ require 'cek.php';
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Tambah Barang</h1>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Masuk Barang</h1>
             </div>
             <!-- Modal body -->
             <form method="post">
@@ -259,6 +242,5 @@ require 'cek.php';
         </div>
     </div>
 </div>
-
 
 </html>
